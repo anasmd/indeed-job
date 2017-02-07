@@ -8,6 +8,8 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class IndeedService {
   private serviceUrl = "http://api.indeed.com/ads/apisearch";
+
+  
   constructor (private http: Http) {}
 
 
