@@ -1,0 +1,9 @@
+<h1>
+  {{title}}
+</h1>
+<form #f="ngForm" (ngSubmit)="onSubmit(f)">
+  Keys: <input name="keys" ngModel required #first="ngModel" >
+  Location: <input name="location" ngModel required>
+  Days <input name="fromage" ngModel required>
+  <button>Submit</button>
+</form>
